@@ -1,0 +1,269 @@
+/************************************
+    Filename: custom.css
+    Author: Lucas Brandão
+    Date: August 26, 22;
+
+    Idex
+
+    0. Reset
+    1. General
+    2. Header
+    3. Cities
+    4. Table of Contents
+    5. Stats
+    6. Footer
+
+************************************/
+
+
+/************************************
+    1. General
+************************************/
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #4682B4;
+}
+::selection{
+    background: #FFEE58;
+    color: #4682B4;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 120%;
+    margin-top: 200px;
+    font-weight: 600;
+    
+
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: left;
+    color: #4682B4;
+    margin-bottom: 32px;
+}
+
+h5{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4682B4;
+    
+}
+
+/************************************
+    2. Header
+************************************/
+header {
+
+}
+
+header#hero{
+    color: #ffffff;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4682B4+0,ff00af+100 */
+    background: #4682B4; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #4682B4 0%, #00CED1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #4682B4 0%,#00CED1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #4682B4 0%,#00CED1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4682B4', endColorstr='#00CED1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+}
+
+header nav {
+       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4682B4+0,00CED1+100 */
+       background: #4682B4; /* Old browsers */
+       background: -moz-linear-gradient(-45deg,  #4682B4 0%, #00CED1 100%); /* FF3.6-15 */
+       background: -webkit-linear-gradient(-45deg,  #4682B4 0%,#00CED1 100%); /* Chrome10-25,Safari5.1-6 */
+       background: linear-gradient(135deg,  #4682B4 0%,#00CED1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4682B4', endColorstr='#00CED1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+       -webkit-box-shadow: none;
+       box-shadow: none;
+
+}
+
+#hero-title {
+
+    
+}
+header #hero-title h1 {
+    margin-top: 200px; 
+    margin-bottom: -10px;
+}
+
+header #hero-subtitle h5 {
+    
+        
+}
+
+header #call-to-scroll{
+
+}
+header #background-unicornio{
+
+    background-image: url(../img/placas_destino.png);
+    background-repeat: no-repeat;
+    background-position-x: no-repeat;
+    background-position-y: no-repeat;
+    background-attachment: fixed;
+    background-position: 75% 200px;
+   
+    
+
+}
+a.brand-logo{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#value-proposition {
+    height: 750px;
+}
+#value-proposition a {
+    color: #4682B4;
+    font-weight: 600;
+  
+}
+
+#value-proposition .col {
+    padding: 0;
+  
+}
+#call-to-scroll{
+    color: #4682B4;
+    font-size: 16px;
+    font-weight: 600;
+    
+    
+}
+#call-to-scroll .cta {
+    margin-top: 24px;
+    margin-bottom: -12px;
+        
+}
+
+#call-to-scroll i {
+    font-size: 50px;
+    
+}
+
+/************************************
+    3. Cities
+************************************/
+#cities {
+
+}
+#cities-title{
+
+}
+
+.card-action a {
+    background: #4682B4;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16PX;
+}
+.card-action a:hover {
+    background: #ADD8E6;
+}
+
+/************************************
+    4. table of Contents
+************************************/
+#table-of-contents{
+    background: #E0FFFF;
+    padding: 24px 0px;
+}
+
+#table-of-contents-title h4 {
+    margin-bottom: -8px;
+
+}
+
+#btable-of-contents-subtitle p {
+    margin-bottom: 32px;
+
+}
+
+#table-of-contents-content{
+    background: #fff;
+}
+
+#table-of-contents-title{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: left;
+    color: #4682B4;
+
+}
+
+.table-of-contents-content-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    padding: 16px 16px 0px 16px;
+}
+#table-of-contents-content-items {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    padding: 0px 16px;
+    margin-left: 32px;
+
+}
+
+
+/************************************
+    5. Stats
+************************************/
+#stats {
+    padding: 60px 0px;
+    background-image: url(../img/mapa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 80% auto;
+}
+
+.stats-content-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    color: #4682B4;
+    text-shadow:  0PX 0 PX 20 PX #fff;
+    padding-top: 32px;
+
+}
+
+.stats-content-subtitle{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #00BFFF;
+    
+    
+}
+
+
+/************************************
+    6. Footer
+************************************/
+.page-footer{
+    background: #4682B4;
+    
+}
